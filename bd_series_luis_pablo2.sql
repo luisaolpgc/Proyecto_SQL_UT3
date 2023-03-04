@@ -1,4 +1,5 @@
 create database bd_series_luis_pablo;
+drop database if exists bd_series_luis_pablo
 use bd_series_luis_pablo;
 create table series(
 id_serie int not null auto_increment,
